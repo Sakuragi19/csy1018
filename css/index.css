@@ -1,12 +1,9 @@
 body{
   text-align: center;
 }
-.nav{
-background-color: black;
+
 }
 .ul {
-
-    list-style-type: none;
     margin: 0;
     padding: 0;
     overflow: hidden;
@@ -47,25 +44,32 @@ li a:hover {
 }
 .main{
  background-color: grey;
- height:75%;
+ height:100%;
+ padding-top: 5%;
+
 }
 .pic{
-padding-top: 50px;
-position: absolute;
+    padding-right: 40px;
+    padding-top: 50px;
+    position: absolute;
     left: 30px;
     margin: auto;
+
 }
 .pic img{
  border-radius: 50%;
 }
-.content{
 
-  padding-top: 150px;
+content{
+  margin-left: 170px;
+
+  padding-top: 100px;
   text-align: center;
   color: black;
   line-height: 1px;
-  font-size: 20px
+  font-size: 20px;
 }
+
 footer{
    height: 15%;
    background-color: black;

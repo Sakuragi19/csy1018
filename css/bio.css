@@ -46,13 +46,21 @@ body{
   text-align: center;
 }
 .main{
-  background-color: grey;
+  background-color: silver;
   height: 75%;
   padding-top: 50px;
 }
+.pic{
+  float:left;
+  padding-left: 2%;
 
- content{
-   padding-top: 150px;
+}
+.pic img{
+  border-radius: 9px;
+}
+.content{
+   padding-left:0px;
+   padding-top:5%;
    text-align: center;
    color: black;
    font-size: 20px
@@ -71,4 +79,3 @@ body{
    text-align: left;
    background-color: black;
    color: white;
- }
