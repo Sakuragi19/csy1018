@@ -1,13 +1,23 @@
-.nav{
-background-color: black;
+body{
+  margin: 0;
 }
-.ul {
+.p{
+background-image: url("../images/i.jpg");
 
+height: 300px;
+
+
+background-attachment: fixed;
+background-position: center;
+background-repeat: no-repeat;
+background-size: cover;
+}
+ul {
+    padding-top: 10px;
     list-style-type: none;
     margin: 0;
     padding: 0;
     overflow: hidden;
-    list-style-type: none;
     background-color: #333;
 }
 
@@ -24,58 +34,35 @@ li a {
     text-decoration: none;
 }
 
+
 li a:hover {
     background-color: grey;
     color: black;
+}
 
-}
 .active{
-   background-color: grey;
-   color: black;
+  background-color: grey;
 }
-.mark{
-  text-align: left;
-  background-color: black;
-  width: 100%;
-  height: 20%;
-}
- .mark img{
-   border-radius: 15px 50px 30px 5px:;
- }
 body{
+  height: 100%;
+}
+.parallax {
+
+    background-image: url("../images/bc.jpg");
+
+    height: 600px;
+
+
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+
+
+footer{
+  background-color: black;
+  color: white;
+}
+.logo{
   text-align: center;
 }
-.main{
-  background-color: silver;
-  height: 75%;
-  padding-top: 50px;
-}
-.pic{
-  float:left;
-  padding-left: 2%;
-
-}
-.pic img{
-  border-radius: 9px;
-}
-.content{
-   padding-left:0px;
-   padding-top:5%;
-   text-align: center;
-   color: black;
-   font-size: 20px
- }
- footer{
-    height: 15%;
-    background-color: black;
- }
- .logo{
-   color:white;
-   font-size: 25px;
-   padding-left: 40px;
-   padding-top: 30px;
- }
- .copyright{
-   text-align: left;
-   background-color: black;
-   color: white;
